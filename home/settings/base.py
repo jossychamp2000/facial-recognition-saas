@@ -79,11 +79,11 @@ REST_FRAMEWORK = {
     ),
     'DEFAULT_THROTTLE_CLASSES': (
         'rest_framework.throttling.ScopedRateThrottle',
-        'rest_framework.throttling.AnonRateThrottle',
+      #  'rest_framework.throttling.AnonRateThrottle',
         'rest_framework.throttling.UserRateThrottle'
     ),
     'DEFAULT_THROTTLE_RATES': {
-        'demo': '3/day',
+        'demo': '24/day',
         'anon': '24/day',
         'user': '1000/day'
     }
@@ -98,4 +98,4 @@ ACCOUNT_EMAIL_VERIFICATION = 'none'
 
 # Stripe plan ID
 
-STRIPE_PLAN_ID = 'facial_monthly_api_call'
+STRIPE_PLAN_ID = 'prod_IPf9uKEh70Ivja'

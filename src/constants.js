@@ -1,9 +1,9 @@
 let DEBUG = false;
 let host = "http://127.0.0.1:8000";
-let stripePublishKey = "";
+let stripePublishKey = "pk_test_51GvuhsG2pgXqIT36lRYvFTt6qFMoO6pnEoAZSTBm00EQ7HDEx1FbIEPf0pqF6bAULYWdJupKNZt8yIvuVpn5Odhw00x8jbEPmC";
 if (DEBUG === false) {
-  host = "";
-  stripePublishKey = "";
+  host = "http://138.197.134.237/";
+  stripePublishKey = "pk_test_51GvuhsG2pgXqIT36lRYvFTt6qFMoO6pnEoAZSTBm00EQ7HDEx1FbIEPf0pqF6bAULYWdJupKNZt8yIvuVpn5Odhw00x8jbEPmC";
 }
 
 export { stripePublishKey };

@@ -62,7 +62,7 @@ class Demo extends React.Component {
     formData.append("file", file);
     this.setState({ loading: true });
     const config = {
-      onUploadProgress: function(progressEvent) {
+      onUploadProgress: function (progressEvent) {
         const progress = Math.round(
           (100 * progressEvent.loaded) / progressEvent.total
         );
@@ -76,7 +76,7 @@ class Demo extends React.Component {
       }
     };
     axios
-      // authAxios
+      //authAxios
       .post(fileUploadURL, formData, config) //  facialRecognitionURL
       .then(res => {
         this.setState({
