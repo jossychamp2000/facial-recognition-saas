@@ -1,5 +1,10 @@
 # Facial recognition API SAAS
 
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> a9dcba2a79d01dc782c1d8401b0569f45150a6e3
 This project is a facial recognition API. Users are able to create an account, utilise a free trial of the API, and create a membership to have full access to the API. Payments are handled with Stripe. The API is built with the Django Rest Framework and the frontend is built with React. The image recognition library is OpenCV. The project is deployed on Ubuntu using Digital Ocean.
 
 ## Backend development workflow
