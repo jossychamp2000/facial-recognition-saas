@@ -9,9 +9,9 @@ WSGI_APPLICATION = 'home.wsgi.prod.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'facereconitionsaas',
+        'NAME': 'facerecognitionsaas',
         'USER': 'jossychamp2000',
-        'PASSWORD': '',
+        'PASSWORD': 'jossykay123',
         'HOST': 'localhost',
         'PORT': '',
     }
