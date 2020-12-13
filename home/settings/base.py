@@ -2,7 +2,7 @@ import os
 
 BASE_DIR = os.path.dirname(os.path.dirname(
     os.path.dirname(os.path.abspath(__file__))))
-SECRET_KEY = '-05sgp9!deq=q1nltm@^^2cc+v29i(tyybv3v2t77qi66czazj'
+SECRET_KEY = 'sk_test_51GvuhsG2pgXqIT36FbQC0O7yRUtiAAAlGaSwVZizYhI4wp7cv0J1V16my336QYXOKr4cU16a9mlhbazidAEkpKIp0002LYNeTb'
 DEBUG = True
 ALLOWED_HOSTS = []
 
@@ -79,7 +79,7 @@ REST_FRAMEWORK = {
     ),
     'DEFAULT_THROTTLE_CLASSES': (
         'rest_framework.throttling.ScopedRateThrottle',
-      #  'rest_framework.throttling.AnonRateThrottle',
+        #  'rest_framework.throttling.AnonRateThrottle',
         'rest_framework.throttling.UserRateThrottle'
     ),
     'DEFAULT_THROTTLE_RATES': {
