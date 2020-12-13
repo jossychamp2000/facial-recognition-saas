@@ -23,7 +23,7 @@ import stripe
 stripe.api_key = settings.STRIPE_SECRET_KEY
 
 User = get_user_model()
-SRIPE_PLAN_ID = 'price_1Hopp3G2pgXqIT362iXgbYyE'
+SRIPE_PLAN_ID = 'price_1Hxlx8G2pgXqIT36NBue97yE'
 
 
 def get_user_from_token(request):
