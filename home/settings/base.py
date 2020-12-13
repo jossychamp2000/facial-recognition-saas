@@ -98,4 +98,4 @@ ACCOUNT_EMAIL_VERIFICATION = 'none'
 
 # Stripe plan ID
 
-STRIPE_PLAN_ID = 'prod_IPf9uKEh70Ivja'
+STRIPE_PLAN_ID = 'price_1Hopp3G2pgXqIT362iXgbYyE'
